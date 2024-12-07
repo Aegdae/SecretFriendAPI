@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Amigo secreto</a></h1>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="grupos.html">Grupo</a></li>
+                <li><a href="participantes.html">Participantes</a></li>
+                <li><a href="sorteio.html">Sorteio</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Grupos</h2>
+        <button onclick="fetchGrupos()">Listar Grupos</button>
+        <form onsubmit="addGrupo(event)">
+            <input type="number" id="grupo_id" placeholder="ID do Grupo" required>
+            <input type="text" id="grupo_name" placeholder="Nome do Grupo" required>
+            <button type="submit">Adicionar Grupo</button>
+        </form>
+        <div id="grupoResult" class="result">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

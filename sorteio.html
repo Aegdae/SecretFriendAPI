@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">Amigo secreto</a></h1>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="grupos.html">Grupo</a></li>
+                <li><a href="participantes.html">Participantes</a></li>
+                <li><a href="sorteio.html">Sorteio</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Sorteio do Amigo secreto</h2>
+        <input type="number" id="grupo_id_sorteio" placeholder="ID do Grupo">
+        <button onclick="sorteioAmigoSecreto()">Realizar Sorteio</button>
+        <div id="sorteioResult" class="result">
+
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
