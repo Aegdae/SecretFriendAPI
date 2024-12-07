@@ -26,7 +26,7 @@
 
 O frontend da aplicação é composto por **4 templates HTML** principais, onde os usuários podem interagir com a API de maneira visual:
 
-- **index.html**: Tela inicial onde os usuários podem escolher entre visualizar grupos ou realizar outras ações.
+- **index.html**: Tela inicial.
 - **grupo.html**: Exibe a lista de grupos e permite criar novos grupos.
 - **participante.html**: Mostra os participantes de um grupo e permite adicionar ou remover participantes.
 - **sorteio.html**: Realiza o sorteio de amigo secreto, exibindo os resultados dos pares de amigos secretos.
